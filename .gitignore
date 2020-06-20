@@ -44,7 +44,7 @@ docker/logs/
 docker/data/
 
 # To avoid crazy stuff on some PR, we must manually FORCE ADD IT on each new release
-composer.lock
+#composer.lock
 
 # assets stuff
 node_modules/
