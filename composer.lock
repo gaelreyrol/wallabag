@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec8c25f2c3bce06d8d23599212a022dd",
+    "content-hash": "c65800cbbc96f1abec2055d12acc2c8f",
     "packages": [
         {
             "name": "bdunogier/guzzle-site-authenticator",
@@ -6748,23 +6748,21 @@
         },
         {
             "name": "wallabag/php-mobi",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wallabag/php-mobi.git",
-                "reference": "1cd7d022fe6be838535d6bba917d19cc48dcf487"
+                "reference": "bfe9c18d038e5ca24664cfdab107a645ac57c9b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wallabag/php-mobi/zipball/1cd7d022fe6be838535d6bba917d19cc48dcf487",
-                "reference": "1cd7d022fe6be838535d6bba917d19cc48dcf487",
+                "url": "https://api.github.com/repos/wallabag/php-mobi/zipball/bfe9c18d038e5ca24664cfdab107a645ac57c9b5",
+                "reference": "bfe9c18d038e5ca24664cfdab107a645ac57c9b5",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
-            },
-            "replace": {
-                "wallabag/phpmobi": "*"
+                "php": ">=5.3.0",
+                "symfony/polyfill-mbstring": "^1.12"
             },
             "type": "library",
             "autoload": {
@@ -6778,19 +6776,19 @@
             ],
             "authors": [
                 {
-                    "name": "Nicolas Lœuillet",
-                    "email": "nicolas@loeuillet.org",
-                    "homepage": "http://www.cdetc.fr"
-                },
-                {
                     "name": "Sander Kromwijk",
                     "email": "s.kromwijk@gmail.co",
                     "role": "Original developer"
+                },
+                {
+                    "name": "Nicolas Lœuillet",
+                    "email": "nicolas@loeuillet.org",
+                    "homepage": "http://www.cdetc.fr"
                 }
             ],
             "description": "A Mobipocket file (.mobi) creator in PHP.",
-            "homepage": "https://github.com/wallabag/phpMobi",
-            "time": "2015-10-16T08:42:42+00:00"
+            "homepage": "https://github.com/wallabag/php-mobi",
+            "time": "2019-08-08T12:26:23+00:00"
         },
         {
             "name": "wallabag/tcpdf",

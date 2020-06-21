@@ -70,7 +70,7 @@
         "stof/doctrine-extensions-bundle": "^1.2",
         "scheb/two-factor-bundle": "^2.14.0",
         "grandt/phpepub": "^4.0.7",
-        "wallabag/php-mobi": "~1.0.0",
+        "wallabag/php-mobi": "^1.1.0",
         "kphoen/rulerz-bundle": "~0.13",
         "guzzlehttp/guzzle": "^5.3.1",
         "doctrine/doctrine-migrations-bundle": "^1.3",
